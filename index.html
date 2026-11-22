@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Personal Drive Uploader</title>
+<meta name="description" content="Personal Drive Uploader: a personal-use tool that uploads podcast audio files from a local PC to the owner's own Google Drive using rclone.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Personal Drive Uploader</h1>
+  <p class="meta">個人利用のファイル転送ツール / A personal file transfer tool</p>
+
+  <h2>概要</h2>
+  <p>Personal Drive Uploader は、開発者本人が自分のPC上の音声ファイル(ポッドキャスト)を、自分の Google ドライブへ転送するために作成した個人利用のツールです。転送には、オープンソースのコマンドラインツール <a href="https://rclone.org/">rclone</a> と Google Drive API を使用しています。</p>
+
+  <h2>機能</h2>
+  <ul>
+    <li>ローカルの指定フォルダにあるファイルを、自分の Google ドライブの指定フォルダへアップロードする</li>
+    <li>アップロードが正常に完了したファイルを、ローカルから削除する</li>
+  </ul>
+
+  <h2>利用範囲</h2>
+  <p>本ツールは、開発者本人のみが自分の Google アカウントで使用します。一般公開サービスではなく、第三者による利用や、第三者のデータの取得は想定していません。Google ドライブの認証情報(OAuth トークン)は、本人のPC内の rclone 設定ファイルにのみ保存され、外部サーバーへは送信されません。</p>
+
+  <h2>Overview</h2>
+  <p>Personal Drive Uploader is a personal-use tool built by its developer to upload the developer's own podcast audio files from a local PC to the developer's own Google Drive. It uses the open-source command-line tool <a href="https://rclone.org/">rclone</a> and the Google Drive API. It is used only by the developer with the developer's own Google account. It is not a public service, and OAuth tokens are stored only in the rclone configuration file on the developer's own computer.</p>
+
+  <nav>
+    <a href="privacy.html">プライバシーポリシー / Privacy Policy</a>
+  </nav>
+
+  <p class="meta" style="margin-top:3rem">&copy; 2026 nichirin1998</p>
+</main>
+</body>
+</html>
